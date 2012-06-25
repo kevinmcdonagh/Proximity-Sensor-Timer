@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:gravity="center"
+    android:background="@drawable/alarm_background">
+
+	<TextView 
+	    android:id="@+id/text" 
+	    android:text="@string/alarm_name"
+        android:layout_marginBottom="10dp"    	
+    	android:gravity="center_horizontal" 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:textSize="25sp" 
+    	android:textColor="#FFFFFF" />
+    
+	<ImageView 
+		android:id="@+id/image"  
+	    android:gravity="center" 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:src="@drawable/clock2" 
+	    android:contentDescription="@string/clock" />
+	
+	<Button
+	    android:id="@+id/stop"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/stop_button"
+	    android:textColor="#FFFFFF"
+	    android:layout_marginTop="15dp"
+	    android:text="@string/stop" />
+
+</LinearLayout>

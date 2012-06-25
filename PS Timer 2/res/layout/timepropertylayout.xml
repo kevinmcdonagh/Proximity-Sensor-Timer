@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical" 
+    android:layout_width="fill_parent" 
+    android:background="#FFFFFF" 
+    android:layout_height="wrap_content">
+
+	<TextView 
+	    android:text="@string/countdown_time" 
+	    android:layout_width="wrap_content" 
+	    android:textColor="#333333" 
+	    android:textStyle="bold"
+		android:layout_height="fill_parent" 
+		android:id="@+id/TitleName" 
+		android:layout_marginLeft="12dp" 
+		android:layout_marginTop="8dp" 
+		android:layout_marginBottom="2dp" 
+		android:gravity="center_vertical" 
+		android:textSize="21dp"	/>
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="horizontal" 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content">
+		
+		<TextView 
+		    android:text="@string/text_hours" 
+		    android:layout_width="80dp"	
+		    android:layout_height="fill_parent" 
+		    android:layout_marginLeft="10dp" 
+		    android:layout_marginRight="15dp" 
+		    android:layout_marginTop="0dp" 
+		    android:gravity="center"
+		    android:textSize="16dp" /> 
+		
+		<TextView 
+		    android:text="@string/text_minutes" 
+		    android:layout_width="80dp"
+		    android:layout_height="fill_parent" 
+		    android:layout_marginLeft="15dp" 
+		    android:layout_marginRight="10dp" 
+		    android:layout_marginTop="0dp" 
+		    android:gravity="center"
+		    android:textSize="16dp" /> 
+		
+		<TextView android:text="@string/text_seconds" 
+		    android:layout_width="80dp"
+			android:layout_height="fill_parent" 
+			android:layout_marginLeft="15dp" 
+			android:layout_marginRight="10dp" 
+			android:layout_marginTop="0dp" 
+			android:gravity="center"
+			android:textSize="16dp"/>	
+	
+	</LinearLayout>
+	    	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	    android:orientation="horizontal" 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content">
+		
+  		<NumberPicker
+  		    android:id="@+id/hours"  
+  		    android:layout_height="wrap_content" 
+  		    android:layout_width="65dp" 
+  		    android:layout_weight="1" 
+  		    android:layout_marginBottom="10dp" 
+  		    android:layout_marginLeft="10dp" />
+  		
+  		<TextView 
+  		    android:text="@string/separate" 
+  		    android:layout_width="wrap_content"
+  		    android:layout_height="fill_parent" 
+  		    android:layout_marginLeft="10dp" 
+  		    android:layout_marginRight="10dp" 
+  		    android:layout_marginTop="-20dp" 
+  		    android:gravity="center_vertical"
+  		    android:textSize="30dp"/>
+  		 
+  		<NumberPicker
+  		    android:id="@+id/minutes"  
+  		    android:layout_height="wrap_content"   		    
+  		    android:layout_width="65dp" 
+  		    android:layout_weight="1" 
+  		    android:layout_marginBottom="10dp" />
+  		
+  		<TextView 
+  		    android:text="@string/separate" 
+  		    android:layout_width="wrap_content" 
+  		    android:layout_marginRight="10dp"
+  		    android:layout_height="fill_parent"  
+  		    android:layout_marginLeft="10dp" 
+  		    android:layout_marginTop="-20dp" 
+  		    android:gravity="center_vertical"
+  		    android:textSize="30dp"/>
+  		  
+  		<NumberPicker
+  		    android:id="@+id/seconds"  
+  		    android:layout_height="wrap_content"   		    
+  		    android:layout_width="65dp" 
+  		    android:layout_weight="1" 
+  		    android:layout_marginBottom="20dp" 
+  		    android:layout_marginRight="10dp"/> 
+  		    
+ 	</LinearLayout>
+ 
+</LinearLayout>

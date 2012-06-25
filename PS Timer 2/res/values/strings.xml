@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Proximity Sensor Timer</string>
+    <string name="add_description">Add a New Timer</string>
+    <string name="stop">Stop</string>
+    <string name="clock">Clock Image</string>
+    <string name="alarm_name">Alarm Name</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_save">Save</string>
+    <string name="delete_title">Delete Timers</string>
+    <string name="select_all">Select All</string>
+    <string name="timer_time">Timer Time</string>
+    <string name="timer_name">Timer Name</string>
+    <string name="my_timers">My Timers</string>
+    <string name="expand">Expand</string>
+    <string name="new_timer">New Timer</string>
+    <string name="type_of_alarm">Type of alarm</string>
+    <string name="sound_and_vibration">Sound And Vibration</string>
+    <string name="hours">00</string>
+    <string name="minutes">02</string>
+    <string name="seconds">04</string>
+    <string name="separate">:</string>
+    <string name="proximity_sensor">Proximity Sensor</string>
+    <string name="not_active">Not Active</string>
+    <string name="countdown_time">Countdown Time</string>
+    <string name="text_minutes">Minutes</string>
+    <string name="text_seconds">Seconds</string>
+    <string name="text_hours">Hours</string>
+</resources>

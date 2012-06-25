@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+
+	<TextView 
+	    android:id="@+id/labelGelete"
+	    android:text="@string/new_timer" 
+	    android:layout_width="fill_parent"		 
+		android:layout_height="50dp" 
+		android:textColor="#EEEEEE" 
+		android:paddingLeft="12dp" 
+		android:gravity="center_vertical" 
+		android:background="#444444"
+		android:textSize="23sp" />
+	
+	<ListView 
+	    android:id="@+id/list" 
+	    android:layout_width="fill_parent" 
+	    android:descendantFocusability="beforeDescendants" 
+		android:layout_height="0dp" 
+		android:layout_weight="1.0" 
+		android:dividerHeight="1dip" 
+		android:smoothScrollbar="true"
+		android:divider="#CCCCCC" 
+		android:background="#FFFFFF"/>
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="horizontal" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#BDBDBD">
+	    
+	    <Button 
+	        android:id="@+id/save" 
+	        android:layout_marginTop="6dp" 
+	        android:layout_marginLeft="6dp" 
+	        android:layout_marginRight="6dp" 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content" 
+	        android:text="@string/button_save" 
+	        android:layout_weight="1.0" /> 
+	        
+		<Button 
+		    android:id="@+id/cancel" 
+		    android:layout_marginTop="6dp" 
+		    android:layout_marginRight="6dp" 
+		    android:layout_marginLeft="6dp" 
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:text="@string/button_cancel" 
+		    android:layout_weight="1.0"/>
+	   	   
+	</LinearLayout>
+	
+  </LinearLayout>
